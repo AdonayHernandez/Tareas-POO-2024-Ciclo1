@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Iniciar sesión</h2>
+        <form id="login-form">
+            <label for="user">Usuario</label>
+            <input type="text" name="usuario" id="usuario" required>
+
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd" required>
+
+            <br>
+            <input type="button" value="Login" onclick="login()">
+            <p>¿No tienes una cuenta? <a href="registro.html">Regístrate</a></p>
+        </form>
+    </div>
+</body>
+</html>
+<script src="js/script.js"></script>
+<!-- JavaScript -->
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
